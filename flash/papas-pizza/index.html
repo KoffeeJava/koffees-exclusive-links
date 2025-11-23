@@ -1,12 +1,7 @@
-<script>
-    window.RufflePlayer = window.RufflePlayer || {};
+<body>
+    <object>
+        <embed src="papa.swf" width="550" height="400" />
+    </object>
 
-    window.addEventListener("DOMContentLoaded", () => {
-        let ruffle = window.RufflePlayer.newest();
-        let player = ruffle.createPlayer();
-        let container = document.getElementById("container");
-        container.appendChild(player);
-        player.ruffle().load("papa.swf");
-    });
-</script>
-<script src="ruffle.js"></script>
+    <script src="ruffle.js"></script>
+</body>
